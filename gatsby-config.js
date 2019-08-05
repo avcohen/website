@@ -10,7 +10,6 @@ module.exports = {
       email: "avcohen@gmail.com",
       github: "https://github.com/avcohen",
     },
-    pathPrefix: '/website'
   },
   plugins: [
     {
