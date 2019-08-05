@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-blog",
+  "private": false,
+  "description": "my website",
+  "version": "0.1.0",
+  "author": "aaron cohen <avcohen@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.13.13",
+    "gatsby-image": "^2.2.4",
+    "gatsby-node-helpers": "^0.3.0",
+    "gatsby-plugin-feed": "^2.3.2",
+    "gatsby-plugin-google-analytics": "^2.1.1",
+    "gatsby-plugin-manifest": "^2.2.1",
+    "gatsby-plugin-offline": "^2.2.1",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.2.3",
+    "gatsby-plugin-transition-link": "^1.12.4",
+    "gatsby-plugin-typography": "^2.3.0",
+    "gatsby-remark-copy-linked-files": "^2.1.4",
+    "gatsby-remark-images": "^3.1.3",
+    "gatsby-remark-prismjs": "^3.3.1",
+    "gatsby-remark-responsive-iframe": "^2.2.1",
+    "gatsby-remark-smartypants": "^2.1.0",
+    "gatsby-source-filesystem": "^2.1.3",
+    "gatsby-transformer-remark": "^2.6.2",
+    "gatsby-transformer-sharp": "^2.2.1",
+    "gsap": "^2.1.3",
+    "prismjs": "^1.16.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.3.2",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.54",
+    "typeface-roboto": "0.0.54"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.18.2"
+  },
+  "homepage": "https://www.aaronvcohen.com/",
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avcohen/gatsby-blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop-https": "NODE_TLS_REJECT_UNAUTHORIZED=0 gatsby develop --https",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  }
+}
