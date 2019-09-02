@@ -1,6 +1,9 @@
 ---
 templateKey: books
 books:
+  - title: "Oh, What a Blow That Phantom Gave Me!"
+    author: "Edmund Carpenter"
+    isbn: 9780030068812
   - title: "Here Comes Everybody"
     author: "Clay Shirky"
     isbn: 9780143114949
@@ -16,4 +19,7 @@ books:
   - title: "Coercion"
     author: "Douglas Rushkoff"
     isbn: 9781573228299
+  - title: "Twitter and Tear Gas"
+    author: "Zeynep Tufekci"
+    isbn: 9780300215120
 ---

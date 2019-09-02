@@ -13,6 +13,7 @@ import {
 } from "../components/shared"
 
 const WorksArticle = styled(BaseArticle)`
+  background-color: white;
   p {
     margin: 0.25em 0;
   }

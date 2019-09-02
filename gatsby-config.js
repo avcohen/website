@@ -113,12 +113,12 @@ module.exports = {
         trackingId: `UA-145095729-1`,
       },
     },
-    `gatsby-plugin-feed`,
+    // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Aaron Cohen`,
+        short_name: `Aaron Cohen`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

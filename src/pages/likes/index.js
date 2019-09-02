@@ -59,7 +59,7 @@ class Index extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const author = data.site.siteMetadata.author
-    // const bookData = data.books.frontmatter.books
+    const bookData = data.books.frontmatter.books
     const linksData = data.links.frontmatter.linkGroups
 
     return (
@@ -88,7 +88,7 @@ class Index extends React.Component {
                 </LinkList>
               </LinkCategory>
             ))}
-            {/* <LinkCategory key={"book"}>
+            <LinkCategory key={"book"}>
               <h3>{"books"}</h3>
               <LinkList>
                 {bookData.map(book => (
@@ -103,7 +103,7 @@ class Index extends React.Component {
                   </li>
                 ))}
               </LinkList>
-            </LinkCategory> */}
+            </LinkCategory>
           </LinksContainer>
         </LinksSection>
       </Layout>
