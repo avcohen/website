@@ -3,7 +3,7 @@ title: blanca
 tags: ["code"]
 thumbnail: "./blanca2.png"
 source: ""
-link: ""
+link: "https://blancanyc.com"
 isDepricated: false
 excerpt: "custom gatsby website + headless cms"
 about: "JAM Stack — gatsby, react, netlify"

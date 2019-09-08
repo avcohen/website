@@ -47,7 +47,8 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy:prefix": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public",
     "develop-https": "NODE_TLS_REJECT_UNAUTHORIZED=0 gatsby develop --https",
     "start": "npm run develop",
     "serve": "gatsby serve",
