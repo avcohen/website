@@ -28,4 +28,8 @@ linkGroups:
       { name: "fun fun function", url: "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q" },
       { name: "n-o-d-e", url: "https://n-o-d-e.net/" },
     ]
+  - title: "open source projects"
+    links: [
+      { name: "free email forwarding", url: "https://github.com/forwardemail/free-email-forwarding" }
+    ]
 ---
