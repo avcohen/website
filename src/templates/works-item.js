@@ -35,6 +35,26 @@ const WorksArticle = styled(BaseArticle)`
   .gif {
     width: 100%;
   }
+  video {
+    margin: 0 auto;
+    display: flex;
+    border-top: 1px solid black;
+    border-right: 1.2px solid black;
+    border-left: 1.1px solid black;
+    border-bottom: 1px solid black;
+    max-height: 500px;
+  }
+  div.video--portrait {
+    p > video {
+      width: auto;
+    }
+  }
+  div.video--landscape {
+    p > video {
+      width: auto;
+      max-width: 100%;
+    }
+  }
 `
 const WorksFooter = styled(SectionFooter)``
 const TagsList = styled.ul`

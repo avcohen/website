@@ -3,7 +3,7 @@ module.exports = {
     title: `aaron cohen`,
     author: `aaron cohen`,
     bio:
-      "hello.<br/><br/>here you'll find a collection of things i do, i like, and think are worth sharing.<br/><br/>i'm currently a software engineer at <a href='https://speakable.org/' target='_blank' rel='noopener noreferrer'>Speakable PBC</a> based in nyc.",
+      "hello.<br/><br/>here you'll find a collection of things i do, i like, and think are worth sharing.<br/><br/>i'm currently working freelance and cruisin' this pale blue dot. i'm <strong>open to new contracts</strong>, please reach out.",
     description: "a place for things",
     siteUrl: `https://aaronvcohen.com`,
     contact: {
@@ -30,6 +30,20 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-responsive-iframe`,
+          {
+            resolve: "gatsby-remark-video",
+            options: {
+              width: 800,
+              height: "auto",
+              preload: "auto",
+              muted: true,
+              autoplay: false,
+              playsinline: true,
+              controls: true,
+              loop: false,
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

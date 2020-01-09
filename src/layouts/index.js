@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled, { createGlobalStyle } from "styled-components"
 import { underlineMixin } from "../components/shared"
 
@@ -10,6 +9,25 @@ const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #FFF; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
   }
 
   .tl-wrapper:-webkit-scrollbar { width: 0 !important }

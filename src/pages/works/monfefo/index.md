@@ -2,7 +2,7 @@
 title: monfefo
 tags: ["code"]
 thumbnail: "./monfefo_1.jpg"
-source: ""
+date: 2020-12-02
 link: "https://www.monfefo.com/"
 isDepricated: false
 excerpt: "custom shopify website"

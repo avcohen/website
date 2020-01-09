@@ -3,7 +3,6 @@ templateKey: links
 linkGroups:
   - title: "people / places"
     links: [
-      { name: "duplex studio", url: "https://duplex-studio.com/" },
       { name: "brooklyn research", url: "https://brooklynresearch.org/" },
     ]
   - title: "podcasts"
@@ -27,6 +26,7 @@ linkGroups:
       { name: "ml4a", url: "http://ml4a.github.io" },
       { name: "fun fun function", url: "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q" },
       { name: "n-o-d-e", url: "https://n-o-d-e.net/" },
+      { name: "frontend masters", url: "https://frontendmasters.com/" },
     ]
   - title: "open source projects"
     links: [

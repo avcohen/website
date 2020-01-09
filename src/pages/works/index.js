@@ -149,7 +149,7 @@ class WorksIndex extends React.Component {
         if (currentHash === "all") return node
         if (work.tags.includes(currentHash)) return node
       } else {
-        return node
+        if (work.title !== "boxes") return node
       }
     })
 
@@ -209,7 +209,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(works)/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: ASC }
     ) {
       edges {
         node {
