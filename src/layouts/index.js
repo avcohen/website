@@ -206,13 +206,13 @@ const Header = props => {
               likes
             </AniLink>
           </NavItem>
-          <NavItem
+          {/* <NavItem
             active={props.location.pathname === `${__PATH_PREFIX__}/contact`}
           >
             <AniLink {...transitionSettings} to="/contact">
               contact
             </AniLink>
-          </NavItem>
+          </NavItem> */}
         </ul>
       </Nav>
     </NavHeader>

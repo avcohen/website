@@ -4,9 +4,10 @@ module.exports = {
     author: `aaron cohen`,
     bio:
       "hello.<br/><br/>here you'll find a collection of things i do, i like, and think are worth sharing.<br/><br/>i'm currently working freelance and cruisin' this pale blue dot. i'm <strong>open to new contracts</strong>, please reach out.",
-    description: "a place for things",
+    description: "portfolio site — front end developer",
     siteUrl: `https://aaronvcohen.com`,
     contact: {
+      twitter: "@aaronvcohen",
       email: "avcohen@gmail.com",
       github: "https://github.com/avcohen",
     },
